@@ -5,13 +5,16 @@ C. Open the consols, paste and run this script.
 D. Now copy the full string from the bottom of the console. Vualla!!
 */
 
+const participantsContainerSelector = '.participants-section-container'
+const participantSelector = '[id^="participants-list-"] .participants-item__display-name'
+
 try {
-    const elParticipantsContainer = document.querySelector('.participants-section-container')
+    const elParticipantsContainer = document.querySelector(participantsContainerSelector)
     if (!elParticipantsContainer) throw new Error()
 
     elParticipantsContainer.style.height = '50000px' // set place for zoom to render all participants
 
-    const elParticipants = [...document.querySelectorAll('[id^="participants-list-"] .participants-item__display-name')]
+    const elParticipants = [...document.querySelectorAll(participantSelector)]
     const allParticipantNames = elParticipants.map((p) => p.innerText) // get all names
 
     const toRemoveNames = [
