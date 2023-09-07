@@ -1,4 +1,4 @@
-# get-Zoom-Participaints
+# Get Zoom Participaints
 
 ### - Get the Zoom participaints list - while in the meeting!
 ### - No need to be the meeting host!
