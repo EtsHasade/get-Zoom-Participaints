@@ -2,7 +2,8 @@
 A. Enter to the Zoom meeting from the Zoom Web Client - not the desktop app!
 B. copy all this script.
 C. Open the consols, paste and run this script.
-D. Now copy the full string from the bottom of the console. Vualla!!
+D. Now copy the full string from the bottom of the console.
+E. Vualla!!
 */
 
 const participantsContainerSelector = '.participants-section-container'
@@ -24,7 +25,7 @@ try {
     const participantNames = allParticipantNames.filter(pName => {
         return toRemoveNames.every(removeName => !pName.includes(removeName))
     })
-    
+
     const participantNamesStr = JSON.stringify(participantNames)
         .replaceAll(',', '\n')
         .replaceAll('"', '')
@@ -32,7 +33,8 @@ try {
         .replaceAll(']', '')
         .replaceAll('\n\n', '\n')
 
-    participantNamesStr // In the console, this line will print the list.
+    console.log(participantNamesStr)
+    participantNamesStr // In the console, this line will print the list as some element. and we can copy it with "Copy string content".
 
 } catch (err) {
     alert('Open the Participants list and try again')
