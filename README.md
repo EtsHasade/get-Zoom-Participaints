@@ -20,7 +20,7 @@
 ## Clean the list from your staff automaticly:
 In the head of the script the is an array named "``AUTOMATICALLY_REMOVE_NAMES``".
 
-If you dont whant some participants to apper in the list, - for example, all your school staff members - insert there names or some part of it, like "teacher", and each participant with this name ("Andy - Math teacher", "Jun - teacher of history class", etc) will be automatically removed from the result list.
-**Be aware not to includes common names in this array!**
+If you don't want some participants to appear on the list, - for example, all your school staff members - insert their names or some part of it, like "teacher", and each participant with this name ("Andy - Math teacher", "Jun - teacher of history class", etc) will be automatically removed from the result list.
+**Be aware not to include common names in this array!**
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
