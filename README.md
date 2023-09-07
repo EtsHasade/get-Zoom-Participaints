@@ -12,9 +12,15 @@
     - Close the confirm popup again.
     - Now you can click on the "Join from Your Browser" link in the bottom of the site window.
 )
-- B. copy all this script.
-- C. Open the consols, paste and run this script.
-- D. Now copy the full string from the bottom of the console.
+- B. **Copy all the content of the [**script.js file**](https://github.com/EtsHasade/get-Zoom-Participaints/blob/main/script.js).**
+- C. Open the developer consols in the Zoom tab, **paste and run the script in the console**.
+- D. Now **copy the full string of the participants** from the bottom of the console.
 - E. Vualla!!
+
+## Clean the list from your staff automaticly:
+In the head of the script the is an array named "``AUTOMATICALLY_REMOVE_NAMES``".
+
+If you dont whant some participants to apper in the list, - for example, all your school staff members - insert there names or some part of it, like "teacher", and each participant with this name ("Andy - Math teacher", "Jun - teacher of history class", etc) will be automatically removed from the result list.
+**Be aware not to includes common names in this array!**
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
