@@ -1,8 +1,14 @@
 'use strict'
 const AUTOMATICALLY_REMOVE_NAMES = [
+    /* 
+    insert here the names that you want to automatically remove from the result list.
+    for example, if your school called "Coding academy", and all your staff members called something like "XXX - Coding Academy" -  insert this names part: 
+    
     'Coding Academy',
     'Coding-Academy'
+    */
 ]
+
 const PARTICIPANTS_CONTAINER_SELECTOR = '.participants-section-container'
 const PARTICIPANT_SELECTOR = '[id^="participants-list-"] .participants-item__display-name'
 
