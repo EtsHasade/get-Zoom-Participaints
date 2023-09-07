@@ -1,5 +1,8 @@
 # get-Zoom-Participaints
 
+### - Get the Zoom meeting list - while in the meeting!
+### - No need to be the meeting host!
+
 - A. Enter to the Zoom meeting **from the Zoom Web Client** - not the desktop app!
  <br/>(
   To open Zoom in the Web client:
