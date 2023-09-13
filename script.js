@@ -1,4 +1,4 @@
-
+'use strict'
 let AUTOMATICALLY_REMOVE_NAMES = [
     /* 
     insert here the names that you want to automatically remove from the result list.
